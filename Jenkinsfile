@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage('scm-checkout') {
       steps{
-        git 'https://github.com/Naresh-coder57/practice/new/main/ersinsurance-testapp'
+        git 'https://github.com/Naresh-coder57/practice'
       }
     }
     stage('build') {
